@@ -1,6 +1,3 @@
-alert("JavaScript berhasil dimuat!");
-console.log("JavaScript berhasil dijalankan!");
-let currentNumber = 0; // Mulai dari 0
 
 const songs = {
     0: { name: "Pilih Nomor", file: "" },
