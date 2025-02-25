@@ -1,14 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     let currentNumber = 0;
 
-    const songs = {
-        0: { name: "Pilih Nomor", file: "" },
-        1: { name: "Sabodo Teuing", file: "audio/SOUND 1.mp3" },
-        2: { name: "Prahu Layar", file: "audio/SOUND 2.mp3" },
-        3: { name: "Taman Curug", file: "audio/SOUND 3.mp3" },
-        4: { name: "The Final Countdown", file: "audio/SOUND 4.mp3" },
-        5: { name: "Di Tinggal Rabi", file: "audio/SOUND 5.mp3" }
-    };
+const songs = {
+    1: { name: "Sabodo Teuing", file: "SOUND 1.mp3" },
+    2: { name: "Prahu Layar", file: "SOUND 2.mp3" },
+    3: { name: "Taman Curug", file: "SOUND 3.mp3" },
+};
 
     // Ambil elemen
     const currentNumberDisplay = document.getElementById("currentNumber");
